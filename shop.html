@@ -1,0 +1,605 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="shop.css">
+    <script type="text/javascript" src="toCart2.js"></script>
+</head>
+
+<body>
+    <button class="buton"><a href="home1.php"><p><i class="arrow left"></i></p></a></button>
+    <div class="cart" id="cart">
+        <div class="title">CART</div>
+        <hr/>
+        <div id="title"></div>
+        <button class="checkout"><a href = "ship.html">Checkout</a></button>
+    </div>
+    <div class="outer-wrapper">
+        <div class="wrapper">
+
+            <div class="slide one">
+                <div class="kiri">
+
+                    <div class="card">
+                        <div class="circle"></div>
+                        <div class="circle1"></div>
+                        <div class="card-inner">
+                            <h1>01</h1>
+                            <div class="bulat">
+                                <img src="CPU.png">
+                            </div>
+                            <h2>CPU</h2>
+                            <button class="button1" onclick="openNav()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav" class="sidenav">
+                                <div class="barang">
+                                    <div class="bawah" id="barang1">
+                                        <div class="bulat1">
+                                            <img src="planet/pngwing.com (5).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>INTEL® Core™ i9-10900X ($599.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>10 Core <br>19.25 MB Cache <br>Clock/Turbo - Up To 4.5 GHZ <br>FCLGA 2066 Sockeet</h4>
+                                        <h5>$599.99</h5>
+                                        <button class="button2" onclick="addToCart(barang1)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang2">
+                                        <div class="bulat1">
+                                            <img src="planet/pngwing.com (8).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>INTEL® Core™ i7-7820X ($416.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification:<br></h4>
+                                        <h4>8 Core <br>11 MB Cache <br>Clock/Turbo - Up To 4.3 GHZ <br>FCLGA 2066 Sockeet</h4>
+                                        <h5>$416.00</h5>
+                                        <button class="button2" onclick="addToCart(barang2)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang3">
+                                        <div class="bulat2">
+                                            <img src="planet/pngwing.com (7).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>INTEL® Core™ i5-7640X ($242.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification:<br></h4>
+                                        <h4>4 Core <br>8 MB Cache <br>Clock/Turbo - Up To 4.5 GHZ <br>FCLGA 2066 Sockeet</h4>
+                                        <h5>$242.00</h5>
+                                        <button class="button2" onclick="addToCart(barang3)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main"></div>
+
+
+                    <div class="card">
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="card-inner">
+                            <h1>02</h1>
+                            <div class="bulat">
+                                <img src="mobo.png">
+                            </div>
+                            <h2>MOTHERBOARD</h2>
+                            <button class="button1" onclick="openNav1()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav1" class="sidenav1">
+                                <div class="barang">
+                                    <div class="bawah" id="barang4">
+                                        <div class="bulat3">
+                                            <img src="planet/pngwing.com (11).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>ASUS ROG RAMPAGE VI EXTREME ($1.286.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Support Intel® Core™ X-series<br>Processor for LGA 2066 socket<br>Supports DDR4-4200 memory<br><br><br><br></h4>
+                                        <h5>$1.286.00</h5>
+                                        <button class="button2" onclick="addToCart(barang4)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang5">
+                                        <div class="bulat4">
+                                            <img src="planet/500.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>GIGABYTE X299 AORUS GAMING 9 ($599.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Support Intel® Core™ X-series<br>Processor for LGA 2066 socket<br>Supports DDR4-4400 memory<br><br><br><br></h4>
+                                        <h5>$599.99</h5>
+                                        <button class="button2" onclick="addToCart(barang5)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang6">
+                                        <div class="bulat5">
+                                            <img src="planet/pd01.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>MSI X299 GAMING M7 ACK ($569.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Support New Intel® Core™ X-<br>Series Processor for LGA 2066 socket<br>Supports DDR4-4133 memory<br><br><br><br></h4>
+                                        <h5>$569.00</h5>
+                                        <button class="button2" onclick="addToCart(barang6)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main1"></div>
+
+                    <div class="card">
+                        <div class="circle"></div>
+                        <div class="circle1"></div>
+                        <div class="card-inner">
+                            <h1>03</h1>
+                            <div class="bulat">
+                                <img src="ram.png">
+                            </div>
+                            <h2>RAM</h2>
+                            <button class="button1" onclick="openNav2()">More Items..</button>
+                        </div>
+                    </div>
+                    <div class="ujung">
+                        <div id="mySidenav2" class="sidenav2">
+                            <div class="barang">
+                                <div class="bawah" id="barang7">
+                                    <div class="bulat6">
+                                        <img src="planet/kindpng_2216737.png">
+                                    </div>
+                                    <div class="nama">
+                                        <h3>CORSAIR VENGEANCE RGB PRO<br>SL 32GB (4 x 8GB) ($149.99)</h3>
+                                    </div>
+                                    <div class="border"></div>
+                                    <h4>Specification: <br></h4>
+                                    <h4>DDR4 RAM<br>Speed 3200MHz<br>Supports ICUE apps</h4>
+                                    <h5>$149.99</h5>
+                                    <button class="button2" onclick="addToCart(barang7)">ADD TO CART</button>
+                                </div>
+                                <div class="bawah" id="barang8">
+                                    <div class="bulat7">
+                                        <img src="planet/PngItem_4501864.png">
+                                    </div>
+                                    <div class="nama">
+                                        <h3> HYPERX FURY 32GB (4 X 8GB) ($208.35)
+                                            <BR>
+                                            <BR>
+                                        </h3>
+                                    </div>
+                                    <div class="border"></div>
+                                    <h4>Specification:<br></h4>
+                                    <h4>DDR4 RAM<br>Speed of 2400MHz up to<br>3200 MHz</h4>
+                                    <h5>$208.35</h5>
+                                    <button class="button2" onclick="addToCart(barang8)">ADD TO CART</button>
+                                </div>
+                                <div class="bawah" id="barang9">
+                                    <div class="bulat8">
+                                        <img src="planet/Daco_4549225.png">
+                                    </div>
+                                    <div class="nama">
+                                        <h3>CORSAIR DOMINATOR PLATINUM
+                                            <BR>RGB 32GB (2X16GB) ($209.99)</h3>
+                                    </div>
+                                    <div class="border"></div>
+                                    <h4>Specification:<br></h4>
+                                    <h4>DDR4 RAM<br>Speed of 3600MHz up to<br>4600 MHz</h4>
+                                    <h5>$209.99</h5>
+                                    <button class="button2" onclick="addToCart(barang9)">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <a href="javascript:void(0)" class="closebtn2" onclick="closeNav2()">&times;</a>
+                        </div>
+                    </div>
+
+                    <div id="main2"></div>
+
+                    <div class="card">
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="card-inner">
+                            <h1>04</h1>
+                            <div class="bulat">
+                                <img src="gpu.png">
+                            </div>
+                            <h2>GPU</h2>
+                            <button class="button1" onclick="openNav3()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav3" class="sidenav3">
+                                <div class="barang">
+                                    <div class="bawah" id="barang10">
+                                        <div class="bulat9">
+                                            <img src="planet/img_fresh-shroud.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>ROG STRIX RTX3090 O24G GAMING ($3599.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Memory Bandwidth: 936.2 GB/s<br>Memory Type: GDDR6X<br>Memory Size: 24 GB<br>DirectX: 12</h4>
+                                        <h5>$3599.99</h5>
+                                        <button class="button2" onclick="addToCart(barang10)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang11">
+                                        <div class="bulat10">
+                                            <img src="planet/product_160586336150bed8d4abba22c84aca6dc3c53b074e.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>MSI RTX 3090 SUPRIM X 24 G ($3820.31)<br></h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification:<br></h4>
+                                        <h4>Memory Bandwidth: 936.2 GB/s<br>Memory Type: GDDR6X<br>Memory Size: 24 GB<br>DirectX: 12</h4>
+                                        <h5>$3820.31</h5>
+                                        <button class="button2" onclick="addToCart(barang11)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang12">
+                                        <div class="bulat11">
+                                            <img src="planet/26615.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>AORUS RTX 3090 XTREME<br>WATERFORCE 24G ($3650.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification:<br></h4>
+                                        <h4>Memory Bandwidth: 936 GB/s<br>Memory Type: GDDR6X<br>Memory Size: 24 GB<br>DirectX: 12</h4>
+                                        <h5>$3650.00</h5>
+                                        <button class="button2" onclick="addToCart(barang12)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn3" onclick="closeNav3()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main3"></div>
+
+                    <div class="card">
+                        <div class="circle"></div>
+                        <div class="circle1"></div>
+                        <div class="card-inner">
+                            <h1>05</h1>
+                            <div class="bulat">
+                                <img src="storage.png">
+                            </div>
+                            <h2>STORAGE</h2>
+                            <button class="button1" onclick="openNav4()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav4" class="sidenav4">
+                                <div class="barang">
+                                    <div class="bawah" id="barang13">
+                                        <div class="bulat12">
+                                            <img src="planet/kindpng_2953404.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>AUROS RGB M.2 NVME SSD 512GB ($104.16)<br><br></h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Capacity: 512GB<br>Sequential Read MB/s = 3480 MB/s<br>Sequential Write MB/s= 2000 MB/s</h4>
+                                        <h5>$104.16</h5>
+                                        <button class="button2" onclick="addToCart(barang13)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang14">
+                                        <div class="bulat13">
+                                            <img src="planet/pngwing.com (1).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>SAMSUNG 950 PRO NVME M.2<br>SSD 512GB ($326.37)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Capacity: 512GB<br>Sequential Read MB/s = 2500 MB/s<br>Sequential Write MB/s= 1500 MB/s</h4>
+                                        <h5>$326.37</h5>
+                                        <button class="button2" onclick="addToCart(barang14)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang15">
+                                        <div class="bulat14">
+                                            <img src="planet/pngwing.com (3).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>SAMSUNG SSD 960 EVO NVME<br>M.2 1TB ($449.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Capacity: 1TB<br>Sequential Read MB/s = 3200 MB/s<br>Sequential Write MB/s= 1900 MB/s</h4>
+                                        <h5>$449.99</h5>
+                                        <button class="button2" onclick="addToCart(barang15)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn4" onclick="closeNav4()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main4"></div>
+
+                    <div class="card">
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="card-inner">
+                            <h1>06</h1>
+                            <div class="bulat">
+                                <img src="cooler.png">
+                            </div>
+                            <h2>COOLER</h2>
+                            <button class="button1" onclick="openNav5()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav5" class="sidenav5">
+                                <div class="barang">
+                                    <div class="bawah" id="barang16">
+                                        <div class="bulat15">
+                                            <img src="planet/PngItem_1635265.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>COOLER MASTER MASTERLIQUID
+                                                <BR>ML360R RGB ($125.00)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Fan Speed: 650-2000 RPM<br>Fan Quantity: 3PCS <br>Radiator Size: 360mm</h4>
+                                        <h5>$125.00</h5>
+                                        <button class="button2" onclick="addToCart(barang16)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang17">
+                                        <div class="bulat16">
+                                            <img src="planet/pngwing.com (4).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>COOLER MASTER MASTERLIQUID
+                                                <BR>Ml240L V2 RGB ($69.44)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Fan Speed: 650-1800 RPM<br>Fan Quantity: 2PCS <br>Radiator Size: 240mm</h4>
+                                        <h5>$69.44</h5>
+                                        <button class="button2" onclick="addToCart(barang17)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang18">
+                                        <div class="bulat17">
+                                            <img src="planet/PngItem_5192497.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>CORSAIR ICUE H15OI RGB PRO
+                                                <BR>XT LIQUID CPU COOLER ($159.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Fan Speed: 2400 RPM<br>Fan Quantity: 3PCS <br>Radiator Size: 360mm</h4>
+                                        <h5>$159.99</h5>
+                                        <button class="button2" onclick="addToCart(barang18)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn5" onclick="closeNav5()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main5"></div>
+
+                    <div class="card">
+                        <div class="circle"></div>
+                        <div class="circle1"></div>
+                        <div class="card-inner">
+                            <h1>07</h1>
+                            <div class="bulat">
+                                <img src="psu.png">
+                            </div>
+                            <h2>PSU</h2>
+                            <button class="button1" onclick="openNav6()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav6" class="sidenav6">
+                                <div class="barang">
+                                    <div class="bawah" id="barang19">
+                                        <div class="bulat18">
+                                            <img src="planet/h525 (2).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>ASUS ROG STRIX 850G
+                                                <BR>GUNDAM EDITION ($324.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Output: 850W<br>Efficiency: 80 Plus Gold<br>Dimension: 16 x 15 x 8.6 cm<br>Full modullar</h4>
+                                        <h5>$324.99</h5>
+                                        <button class="button2" onclick="addToCart(barang19)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang20">
+                                        <div class="bulat19">
+                                            <img src="planet/h525 (1).png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>ASUS ROG STRIX 850G
+                                                <BR>WHITE ($222.20)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Output: 850W<br>Efficiency: 80 Plus Gold<br>Dimension: 16 x 15 x 8.6 cm<br>Full modullar</h4>
+                                        <h5>$222.20</h5>
+                                        <button class="button2" onclick="addToCart(barang20)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang21">
+                                        <div class="bulat20">
+                                            <img src="planet/h525.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>ASUS ROG STRIX 750G | PSU 750W
+                                                <BR>80+ GOLD FULLY MODULAR ($177.06)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Total Output: 750W<br>Efficiency: 80 Plus Gold<br>Dimension: 16 x 15 x 8.6 cm<br>Full modullar</h4>
+                                        <h5>$177.06</h5>
+                                        <button class="button2" onclick="addToCart(barang21)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn6" onclick="closeNav6()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="main6"></div>
+
+                    <div class="card">
+                        <div class="circle2"></div>
+                        <div class="circle3"></div>
+                        <div class="card-inner">
+                            <h1>08</h1>
+                            <div class="bulat">
+                                <img src="case.png">
+                            </div>
+                            <h2>CASE</h2>
+                            <button class="button1" onclick="openNav7()">More Items..</button>
+                        </div>
+                        <div class="ujung">
+                            <div id="mySidenav7" class="sidenav7">
+                                <div class="barang">
+                                    <div class="bawah" id="barang22">
+                                        <div class="bulat21">
+                                            <img src="planet/nzxt.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>NZHT H440 | HYPER BEAST<br> EDITION ($199.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Dimensions: 220 x 510 x 475.3mm<br>Weight: 12.44kg<br>5 fan support</h4>
+                                        <h5>$199.99</h5>
+                                        <button class="button2" onclick="addToCart(barang22)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang23">
+                                        <div class="bulat22">
+                                            <img src="planet/ninja.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>NZHT H700I | NINJA SPECIAL ($249.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Dimensions: 516 x 230 x 230mm<br>Weight: 12.27kg<br>7 fan support</h4>
+                                        <h5>$249.99</h5>
+                                        <button class="button2" onclick="addToCart(barang23)">ADD TO CART</button>
+                                    </div>
+                                    <div class="bawah" id="barang24">
+                                        <div class="bulat23">
+                                            <img src="planet/pngfind.com-cpu-cabinet-png-6678847.png">
+                                        </div>
+                                        <div class="nama">
+                                            <h3>NZHT H710 | FULL BLACK ($189.99)</h3>
+                                        </div>
+                                        <div class="border"></div>
+                                        <h4>Specification: <br></h4>
+                                        <h4>Dimensions: 516 x 230 x 494mm<br>Weight: 12.1kg<br>5 fan support</h4>
+                                        <h5>$189.99</h5>
+                                        <button class="button2" onclick="addToCart(barang24)">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" class="closebtn7" onclick="closeNav7()">&times;</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "1200px";
+            document.getElementById("main").style.marginLeft = "1200px";
+        }
+
+        function openNav1() {
+            document.getElementById("mySidenav1").style.width = "1200px";
+            document.getElementById("main1").style.marginLeft = "1200px";
+        }
+
+        function openNav2() {
+            document.getElementById("mySidenav2").style.width = "1200px";
+            document.getElementById("main2").style.marginLeft = "1200px";
+        }
+
+        function openNav3() {
+            document.getElementById("mySidenav3").style.width = "1200px";
+            document.getElementById("main3").style.marginLeft = "1200px";
+        }
+
+        function openNav4() {
+            document.getElementById("mySidenav4").style.width = "1200px";
+            document.getElementById("main4").style.marginLeft = "1200px";
+        }
+
+        function openNav5() {
+            document.getElementById("mySidenav5").style.width = "1200px";
+            document.getElementById("main5").style.marginLeft = "1200px";
+        }
+
+        function openNav6() {
+            document.getElementById("mySidenav6").style.width = "1200px";
+            document.getElementById("main6").style.marginLeft = "1200px";
+        }
+
+        function openNav7() {
+            document.getElementById("mySidenav7").style.width = "1200px";
+        }
+
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+        function closeNav1() {
+            document.getElementById("mySidenav1").style.width = "0";
+            document.getElementById("main1").style.marginLeft = "0";
+        }
+
+        function closeNav2() {
+            document.getElementById("mySidenav2").style.width = "0";
+            document.getElementById("main2").style.marginLeft = "0";
+        }
+
+        function closeNav3() {
+            document.getElementById("mySidenav3").style.width = "0";
+            document.getElementById("main3").style.marginLeft = "0";
+        }
+
+        function closeNav4() {
+            document.getElementById("mySidenav4").style.width = "0";
+            document.getElementById("main4").style.marginLeft = "0";
+        }
+
+        function closeNav5() {
+            document.getElementById("mySidenav5").style.width = "0";
+            document.getElementById("main5").style.marginLeft = "0";
+        }
+
+        function closeNav6() {
+            document.getElementById("mySidenav6").style.width = "0";
+            document.getElementById("main6").style.marginLeft = "0";
+        }
+
+        function closeNav7() {
+            document.getElementById("mySidenav7").style.width = "0";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+    background: #4D83D4;
+    height: 100px;
+    background: rgba(77, 131, 213, 0.25);
+    box-shadow: 0px 4px 50px 20px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(400px);
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    Height: 100%;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.border {
+    border: 1px solid #FFFFFF;
+    width: 1760px;
+    display: flex;
+}
+
+.display {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    font-family: 'NEXT ART';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+}
+
+.isi {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.isi input[type="text"] {
+    border: 0;
+    text-align: center;
+    outline: none;
+    transition: 0.25s;
+    width: 867px;
+    height: 75px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(400px);
+    border-radius: 60px;
+    z-index: 2;
+}
+
+.isi1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.isi1 input[type="text"] {
+    border: 0;
+    text-align: center;
+    outline: none;
+    transition: 0.25s;
+    width: 1520px;
+    height: 75px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(400px);
+    border-radius: 60px;
+    z-index: 2;
+}
+
+.isi1 input[type="number"] {
+    border: 0;
+    text-align: center;
+    outline: none;
+    transition: 0.25s;
+    width: 217px;
+    height: 75px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(400px);
+    border-radius: 60px;
+    z-index: 2;
+}
+
+.isi2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.isi2 input[type="text"] {
+    border: 0;
+    text-align: center;
+    outline: none;
+    transition: 0.25s;
+    width: 1760px;
+    height: 75px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(400px);
+    border-radius: 60px;
+    z-index: 2;
+}
+
+.isi3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+.isi3 input[type="checkbox"] {
+    outline: none;
+    transition: 0.25s;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(400px);
+    z-index: 2;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 16px;
+    margin-top: 8px;
+    color: #FFFFFF;
+}
+
+.tombol {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.button1 {
+    width: 84px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button2 {
+    width: 84px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    background: #3141C0;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: white;
+}
